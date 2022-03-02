@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url('../fonts/UbuntuRegular.eot');
+    src: url('../fonts/UbuntuRegular.eot') format('embedded-opentype'),
+         url('../fonts/UbuntuRegular.woff2') format('woff2'),
+         url('../fonts/UbuntuRegular.woff') format('woff'),
+         url('../fonts/UbuntuRegular.ttf') format('truetype'),
+         url('../fonts/UbuntuRegular.svg#UbuntuRegular') format('svg');
+}
+
+body {
+	font-family: verdana, helvetica, sans-serif; 
+	
+}
+
+body {
+	background-image: url('../images/galaxy3.jpg');
+	background-size: 100% 100% ;
+	background-position:center ;
+	background-repeat: no-repeat;
+	min-height: 100%;
+	max-width: 1000px;
+	width: auto;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.ita {
+	
+	font-style: oblique;
+	
+}
+
+h1  {
+	font-family: 'UbuntuRegular';
+	font-size: 300%;
+}
+
+h3 {
+	font-family: 'UbuntuRegular';
+	font-size: 150%;
+	
+}
+
+div#recherche {
+	background: lightgrey;
+	padding-left: 20px;
+	
+}
+
+div#recherche2{
+	background: lightgrey;
+	padding-left:10px;
+	
+}
+div#vide{
+	background: lightgrey;
+		
+}
+
+div#Commentez{
+	font-size: 150%;
+	font-style: bold;
+	
+}
+
+
+.netron{
+	display: block;
+	text-align: center;
+	
+}
+
+.gch{
+	max-width: 100%;
+	height: auto;
+	
+}
+
+
+.wrapper{
+	background-color:white;
+	padding-top:10px;
+	
+}
+
+#main-content{
+
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom:10px;
+	
+	
+}
+
+#main-footer{
+	
+	background-color: grey;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	
+	
+}
+
+.video-wrapper {
+	margin-left: auto;
+    margin-right: auto;
+	width: 600px;
+	max-width: 100%;
+}
+
+.video-responsive { 
+	overflow:hidden; 
+	padding-bottom:56.25%; 
+	position:relative; 
+	height:0;
+	
+}
+
+.video-responsive iframe { 
+	left:0; 
+	top:0; 
+	height:100%; 
+	width:100%; 
+	position:absolute;
+
+}
