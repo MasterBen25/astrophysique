@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url('../fonts/UbuntuRegular.eot');
+    src: url('../fonts/UbuntuRegular.eot') format('embedded-opentype'),
+         url('../fonts/UbuntuRegular.woff2') format('woff2'),
+         url('../fonts/UbuntuRegular.woff') format('woff'),
+         url('../fonts/UbuntuRegular.ttf') format('truetype'),
+         url('../fonts/UbuntuRegular.svg#UbuntuRegular') format('svg');
+}
+
+body {
+	font-family: verdana, helvetica, sans-serif; 
+	
+}
+
+body {
+	background-image: url('../images/galaxy3.jpg');
+	background-size: 100% 100% ;
+	background-position:center ;
+	background-repeat: no-repeat;
+	min-height: 100%;
+	max-width: 1000px;
+	width: auto;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+
+
+h1  {
+	font-family: 'UbuntuRegular';
+	font-size: 300%;
+}
+
+
+h2  {
+	font-family: 'UbuntuRegular';
+	font-size: 200%;
+}
+
+h3 {
+	font-family: 'UbuntuRegular';
+	font-size: 150%;
+	
+}
+
+.wrapper{
+	background-color:white;
+	padding-top:10px;
+	
+	
+}
+
+#main-content{
+
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom:10px;
+	
+	
+}
+
+#main-footer{
+	
+	background-color: grey;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	
+	
+}
+
+div#recherche {
+	background: lightgrey;
+	padding-left: 20px;
+	
+}
+
+div#recherche2{
+	background: lightgrey;
+	padding-left:10px;
+	
+}
+
+.ita {
+	
+	font-style: oblique;
+	
+}
+
+.top-galaxy {
+	max-width: 100%;
+	height: auto;
+	
+}
+
+div#vide{
+	background: lightgrey;
+		
+}
+
+
+
+div#Commentez{
+	font-size: 150%;
+	font-style: bold;
+	
+}
